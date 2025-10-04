@@ -30,7 +30,7 @@
   </table>
 
   <script>
-    // ----- Shared data helpers -----
+
     const KEY = "players";
     const SEED = [
       { number: 13, name: "Guglielmo Vicario", position: "GK", nation: "Italy", birth: "1996-10-07", salary: 2000000, foot: "Right", height: 194, status: "Active" },
@@ -49,7 +49,7 @@
     function setPlayers(arr){ localStorage.setItem(KEY, JSON.stringify(arr)); }
     (function ensureSeed(){ if(!getPlayers()) setPlayers(SEED); })();
 
-    // ----- Render list -----
+
     const tbody = document.getElementById("list-body");
     const data = getPlayers();
     tbody.innerHTML = data.map(p => `

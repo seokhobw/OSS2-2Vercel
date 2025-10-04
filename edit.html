@@ -125,7 +125,7 @@
       if(!next.foot) valid=false;
       if(!(next.height>=140 && next.height<=230)) valid=false;
       if(!next.status) valid=false;
-      // duplicate number check except self
+
       if(players.some(x => x.number === next.number && x.number !== original)){
         valid=false; alert("이미 다른 선수가 사용 중인 등번호입니다.");
       }

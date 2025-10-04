@@ -89,7 +89,6 @@
       e.preventDefault();
       e.stopPropagation();
 
-      // Show built-in validation styles first
       form.classList.add("was-validated");
 
       const number = Number(document.getElementById("number").value);
@@ -122,14 +121,13 @@
         alert("이미 존재하는 등번호입니다.");
       }
 
-      if (!valid) return; // stop here when invalid
+      if (!valid) return; 
 
-      // 4) Save and show success alert reliably
+
       const players = getPlayers();
       players.push({ number, name, position, nation, birth, salary, foot, height, status });
       setPlayers(players);
 
-      // Ensure the alert is shown before navigation
       setTimeout(() => { location.href = "./index.html"; }, 0);
       alert("게시물이 추가됩니다");
     });
