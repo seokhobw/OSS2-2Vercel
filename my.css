@@ -1,0 +1,25 @@
+/* Global */
+body { background: #f8f9fa; }
+.page-header { display:flex; gap:12px; align-items:center; justify-content:space-between; }
+.page-header h1 { font-size: 1.75rem; margin:0; }
+.table thead th { white-space: nowrap; }
+.btn + .btn { margin-left: 8px; }
+.form-hint { font-size: .875rem; color:#6c757d; }
+.card.player { max-width: 720px; margin: 0 auto; }
+.footer-nav { margin-top: 16px; display:flex; gap:8px; flex-wrap:wrap; }
+
+/* Phone (<=576px) */
+@media (max-width: 576px) {
+  .page-header h1 { font-size: 1.25rem; }
+  table.table { font-size: .9rem; }
+  .table td, .table th { padding:.5rem; }
+  .card.player { margin: 0 8px; }
+  .btn { padding:.45rem .7rem; }
+  .container { padding-left: 12px; padding-right: 12px; }
+}
+
+/* Desktop (>=992px) */
+@media (min-width: 992px) {
+  .container { max-width: 960px; }
+  .page-header h1 { font-size: 2rem; }
+}
