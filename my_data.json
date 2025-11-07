@@ -1,0 +1,18 @@
+{
+  "players": [
+    {
+      "name": "Cristian Romero",
+      "position": "DFs",
+      "nation": "Argentina",
+      "salary": 4500000,
+      "id": "2"
+    },
+    {
+      "id": "a226",
+      "name": "이석호",
+      "position": "GK",
+      "nation": "Korea",
+      "salary": 34543345
+    }
+  ]
+}
