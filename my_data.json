@@ -1,11 +1,11 @@
 {
   "players": [
     {
-      "id": "1",
       "name": "Cristiano Ronaldo",
-      "position": "FW",
+      "position": "FWd",
       "nation": "Portugal",
-      "salary": 20000000
+      "salary": 20000000,
+      "id": "1"
     },
     {
       "id": "2",
