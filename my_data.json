@@ -1,18 +1,74 @@
 {
   "players": [
     {
-      "name": "Cristian Romero",
-      "position": "DFs",
-      "nation": "Argentina",
-      "salary": 4500000,
-      "id": "2"
+      "id": "1",
+      "name": "Cristiano Ronaldo",
+      "position": "FW",
+      "nation": "Portugal",
+      "salary": 20000000
     },
     {
-      "id": "a226",
+      "id": "2",
+      "name": "Lionel Messi",
+      "position": "FW",
+      "nation": "Argentina",
+      "salary": 25000000
+    },
+    {
+      "id": "3",
+      "name": "Kevin De Bruyne",
+      "position": "MF",
+      "nation": "Belgium",
+      "salary": 22000000
+    },
+    {
+      "id": "4",
+      "name": "Virgil van Dijk",
+      "position": "DF",
+      "nation": "Netherlands",
+      "salary": 18000000
+    },
+    {
+      "id": "5",
+      "name": "Son Heung-min",
+      "position": "FW",
+      "nation": "Korea",
+      "salary": 12500000
+    },
+    {
+      "id": "6",
+      "name": "Kylian Mbappé",
+      "position": "FW",
+      "nation": "France",
+      "salary": 30000000
+    },
+    {
+      "id": "7",
+      "name": "Luka Modrić",
+      "position": "MF",
+      "nation": "Croatia",
+      "salary": 11000000
+    },
+    {
+      "id": "8",
+      "name": "Erling Haaland",
+      "position": "FW",
+      "nation": "Norway",
+      "salary": 28000000
+    },
+    {
+      "id": "9",
       "name": "이석호",
       "position": "GK",
       "nation": "Korea",
       "salary": 34543345
+    },
+    {
+      "id": "10",
+      "name": "Cristian Romero",
+      "position": "DF",
+      "nation": "Argentina",
+      "salary": 4500000
     }
   ]
 }
